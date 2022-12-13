@@ -300,8 +300,6 @@ class File(models.Model):
         context = {}
         if field_name == "directory_id":
             context["directory_short_name"] = True
-        elif field_name == "category_id":
-            context["category_short_name"] = True
         return super(File, self.with_context(**context)).search_panel_select_range(
             field_name, **kwargs
         )
@@ -511,11 +509,7 @@ class File(models.Model):
         elif self.env.context.get("default_directory_id"):
             directory_id = self.env.context.get("default_directory_id")
         directory = self.env["dms.directory"].browse(directory_id)
-        if (
-            directory.res_model
-            and directory.res_id
-            and directory.storage_id_save_type == "attachment"
-        ):
+        if directory.res_model and directory.res_id:
             attachment = (
                 self.env["ir.attachment"]
                 .with_context(dms_file=True)

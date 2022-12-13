@@ -4,7 +4,7 @@
 {
     "name": "Document Management System",
     "summary": """Document Management System for Odoo""",
-    "version": "15.0.1.5.1",
+    "version": "15.0.1.1.0",
     "category": "Document Management",
     "license": "LGPL-3",
     "website": "https://github.com/OCA/dms",
@@ -38,7 +38,6 @@
             "dms/static/src/scss/directory_kanban.scss",
             "dms/static/src/js/fields/path.js",
             "dms/static/src/js/views/many_drop_target.js",
-            "dms/static/src/js/views/search_panel.esm.js",
             "dms/static/src/js/views/file_list_controller.js",
             "dms/static/src/js/views/file_list_view.js",
             "dms/static/src/js/views/file_kanban_controller.js",

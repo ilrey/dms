@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-07-18 17:06+0000\n"
-"Last-Translator: Maria Sparenberg <maria.sparenberg@gmx.net>\n"
+"PO-Revision-Date: 2021-10-13 19:48+0000\n"
+"Last-Translator: Corneliuus <nils@it-kraus.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -36,7 +36,7 @@ msgstr ""
 "\n"
 "                - Einzelne Dateien: Die E-Mail wird im Verzeichnis "
 "gespeichert und\n"
-"                alle Anhänge werden als Dateien gespeichert.\n"
+"                alle Anhänge werden als Dateien gespecihert.\n"
 "\n"
 "                - Unterverzeichnis: Für jede E-Mail wird ein neues "
 "Unterverzeichnis erstellt\n"
@@ -251,8 +251,8 @@ msgstr "Ein Verzeichnis benötigt ein Oberverzeichnis."
 #, python-format
 msgid "A directory has to have model in attachment storage."
 msgstr ""
-"Ein Verzeichnis benötigt ein Datenmodell, wenn Anhänge als Speicherort "
-"gewählt wurde."
+"Ein Verzeichnis benötigt ein Model, wenn Anhänge als Speicherort gewählt "
+"wurde."
 
 #. module: dms
 #: code:addons/dms/models/directory.py:0
@@ -265,7 +265,7 @@ msgstr "Es existiert bereits ein Verzeichnis mit diesem Namen."
 #, python-format
 msgid "A file must have model and resource ID in attachment storage."
 msgstr ""
-"Eine Datei benötigt ein Datenmodell und eine Resource-ID, wenn Anhänge als "
+"Eine Datei benötigt ein Model und eine Resource ID, wenn Anhänge als "
 "Speicherort gewählt wurde."
 
 #. module: dms
@@ -283,7 +283,7 @@ msgstr "Ein Stammverzeichnis benötigt einen Speicherort."
 #. module: dms
 #: model:ir.model,name:dms.model_abstract_dms_mixin
 msgid "Abstract Dms Mixin"
-msgstr "Abstraktes DMS-Mixin"
+msgstr "Abstraktes Dms-Mixin"
 
 #. module: dms
 #: model_terms:ir.ui.view,arch_db:dms.view_dms_directory_form
@@ -294,7 +294,7 @@ msgstr "Erlaube E-Mails von"
 #: model:ir.actions.act_window,name:dms.action_dms_access_groups
 #: model:ir.ui.menu,name:dms.menu_dms_access_groups
 msgid "Access Groups"
-msgstr "Zugriffsgruppen"
+msgstr "Gruppen"
 
 #. module: dms
 #: model_terms:ir.ui.view,arch_db:dms.view_dms_directory_form
@@ -341,7 +341,7 @@ msgstr "Aktivitäten"
 #: model:ir.model.fields,field_description:dms.field_dms_directory__activity_exception_decoration
 #: model:ir.model.fields,field_description:dms.field_dms_file__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Aktivitätsfehler-Dekoration"
+msgstr "Ausnahmenaktivitäts-Dekoration"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_directory__activity_state
@@ -358,14 +358,14 @@ msgstr "Aktivitätstyp-Icon"
 #. module: dms
 #: model_terms:ir.actions.act_window,help:dms.action_dms_directory
 msgid "Add a new Directory."
-msgstr "Neues Verzeichnis hinzufügen."
+msgstr "Hinzufügen eines Verzeichnisses."
 
 #. module: dms
 #: model_terms:ir.actions.act_window,help:dms.action_dms_file
 #: model_terms:ir.actions.act_window,help:dms.action_dms_file_migration
 #: model_terms:ir.actions.act_window,help:dms.action_dms_file_storage_migration
 msgid "Add a new File."
-msgstr "Neue Datei hinzufügen."
+msgstr "Hinzufügen einer Datei."
 
 #. module: dms
 #: model:dms.access.group,name:dms.access_group_01_demo
@@ -385,17 +385,17 @@ msgstr "Alias Kontakt Sicherheit"
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_directory__alias_name
 msgid "Alias Name"
-msgstr "Alias-Bezeichnung"
+msgstr "Alias Name"
 
 #. module: dms
 #: model_terms:ir.ui.view,arch_db:dms.view_dms_directory_form
 msgid "Alias Setting"
-msgstr "Alias-Einstellung"
+msgstr "Alias Konfiguration"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_directory__alias_domain
 msgid "Alias domain"
-msgstr "Alias-Domain"
+msgstr "Alias Domain"
 
 #. module: dms
 #: code:addons/dms/models/directory.py:0
@@ -449,12 +449,12 @@ msgstr "Dateianhang"
 #: model:ir.model.fields,field_description:dms.field_dms_directory__message_attachment_count
 #: model:ir.model.fields,field_description:dms.field_dms_file__message_attachment_count
 msgid "Attachment Count"
-msgstr "Anzahl der Anhänge"
+msgstr "Anzahl Anhänge"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_file__attachment_id
 msgid "Attachment File"
-msgstr "Anhangsdatei"
+msgstr "Anhang"
 
 #. module: dms
 #: model:ir.model,name:dms.model_base
@@ -539,7 +539,7 @@ msgstr "Klicken, um ein Stichwort hinzuzufügen."
 #: model:ir.model.fields.selection,name:dms.selection__res_company__documents_onboarding_state__closed
 #: model:ir.model.fields.selection,name:dms.selection__res_company__documents_onboarding_storage_state__closed
 msgid "Closed"
-msgstr "Geschlossen"
+msgstr "Abgeschlossen"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_abstract_dms_mixin__color
@@ -579,7 +579,7 @@ msgstr "Vollständige Gruppen"
 #: model:ir.model.fields,field_description:dms.field_dms_category__complete_name
 #: model:ir.model.fields,field_description:dms.field_dms_directory__complete_name
 msgid "Complete Name"
-msgstr "Vollständige Bezeichnung"
+msgstr "Vollständiger Name"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_access_group__complete_directory_ids
@@ -589,7 +589,7 @@ msgstr "Vollständige Verzeichnisse"
 #. module: dms
 #: model:ir.model,name:dms.model_res_config_settings
 msgid "Config Settings"
-msgstr "Konfigurationseinstellungen"
+msgstr "Konfiguration"
 
 #. module: dms
 #: model:ir.ui.menu,name:dms.cat_menu_dms_config
@@ -604,12 +604,12 @@ msgstr "Inhalt"
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_file__content_binary
 msgid "Content Binary"
-msgstr "Binary-Inhalt"
+msgstr "Binary Inhalt"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_file__content_file
 msgid "Content File"
-msgstr "Datei-Inhalt"
+msgstr "Datei Inhalt"
 
 #. module: dms
 #: model:dms.tag,name:dms.tag_11_demo
@@ -627,12 +627,12 @@ msgstr "Verträge"
 #: model:ir.model.fields,field_description:dms.field_dms_storage__count_storage_directories
 #: model:ir.model.fields,field_description:dms.field_dms_tag__count_directories
 msgid "Count Directories"
-msgstr "Anzahl der Verzeichnisse"
+msgstr "Anzahl Verzeichnisse"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_directory__count_elements
 msgid "Count Elements"
-msgstr "Anzahl der Elemente"
+msgstr "Anzahl Elemente"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_category__count_files
@@ -640,7 +640,7 @@ msgstr "Anzahl der Elemente"
 #: model:ir.model.fields,field_description:dms.field_dms_storage__count_storage_files
 #: model:ir.model.fields,field_description:dms.field_dms_tag__count_files
 msgid "Count Files"
-msgstr "Anzahl der Dateien"
+msgstr "Anzahl Dateien"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_directory__count_files
@@ -650,12 +650,12 @@ msgstr "Anzahl Titel Dateien"
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_category__count_categories
 msgid "Count Subcategories"
-msgstr "Anzahl der Unterkategorien"
+msgstr "Anzahl Unterkategorien"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_directory__count_directories_title
 msgid "Count Subdirectories"
-msgstr "Anzahl der Unterverzeichnisse"
+msgstr "Anzahl Unterverzeichnisse"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_directory__count_directories
@@ -665,12 +665,12 @@ msgstr "Anzahl Titel Unterverzeichnisse"
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_category__count_tags
 msgid "Count Tags"
-msgstr "Anzahl der Stichwörter"
+msgstr "Anzahl Stichwörter"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_access_group__count_users
 msgid "Count Users"
-msgstr "Anzahl der Benutzer"
+msgstr ""
 
 #. module: dms
 #: model_terms:ir.ui.view,arch_db:dms.view_dms_directory_new_form
@@ -700,22 +700,22 @@ msgstr "Speicherort anlegen"
 #. module: dms
 #: model_terms:ir.actions.act_window,help:dms.action_dms_category
 msgid "Create a new Category."
-msgstr "Neue Kategorie anlegen."
+msgstr "Kategorie anlegen."
 
 #. module: dms
 #: model_terms:ir.ui.view,arch_db:dms.onboarding_storage_step
 msgid "Create a new Document Storage."
-msgstr "Neuen Speicherort anlegen."
+msgstr "Speicherort anlegen."
 
 #. module: dms
 #: model_terms:ir.ui.view,arch_db:dms.onboarding_directory_step
 msgid "Create a new Root Directory."
-msgstr "Neues Stammverzeichnis anlegen."
+msgstr "Stammverzeichnis anlegen."
 
 #. module: dms
 #: model_terms:ir.actions.act_window,help:dms.action_dms_storage
 msgid "Create a new Storage object."
-msgstr "Neues Speicherort-Objekt anlegen."
+msgstr "Speicherort-Objekt anlegen."
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_storage__include_message_attachments
@@ -783,7 +783,7 @@ msgstr "DMS"
 #. module: dms
 #: model:ir.model,name:dms.model_dms_security_mixin
 msgid "DMS Security Mixin"
-msgstr "DMS-Sicherheit-Mixin"
+msgstr "DMS-Sicherheits-Mixin"
 
 #. module: dms
 #: model:ir.model,name:dms.model_dms_mixins_thumbnail
@@ -813,7 +813,7 @@ msgid ""
 "Define the maximum upload size of a\n"
 "                                        file in MB"
 msgstr ""
-"Legen Sie die maximale Upload-Größe einer Datei\n"
+"Legen Sie die maximal Upload-Größe einer Datei\n"
 "                                        in MB fest"
 
 #. module: dms
@@ -832,7 +832,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:dms.field_dms_file__permission_unlink
 #: model:ir.model.fields,field_description:dms.field_dms_security_mixin__permission_unlink
 msgid "Delete Access"
-msgstr "Löschberechtigung"
+msgstr "Löschrechte"
 
 #. module: dms
 #: model:ir.actions.act_window,name:dms.action_dms_directories_storage
@@ -889,7 +889,7 @@ msgstr "Dokumentenkategorie"
 #. module: dms
 #: model:ir.model,name:dms.model_dms_tag
 msgid "Document Tag"
-msgstr "Dokumenten-Stichwort"
+msgstr "Dokumenten-Tag"
 
 #. module: dms
 #: model:ir.module.category,name:dms.category_dms_security
@@ -925,14 +925,14 @@ msgstr ""
 #: model:ir.model.fields.selection,name:dms.selection__res_company__documents_onboarding_state__done
 #: model:ir.model.fields.selection,name:dms.selection__res_company__documents_onboarding_storage_state__done
 msgid "Done"
-msgstr "Erledigt"
+msgstr "Fertig"
 
 #. module: dms
 #: model_terms:ir.ui.view,arch_db:dms.view_dms_directory_kanban
 #: model_terms:ir.ui.view,arch_db:dms.view_dms_file_kanban
 #: model_terms:ir.ui.view,arch_db:dms.view_dms_tag_kanban
 msgid "Dropdown menu"
-msgstr "Dropdown-Menü"
+msgstr "Dropdown Menü"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_file__is_lock_editor
@@ -947,36 +947,36 @@ msgstr "Elemente"
 #. module: dms
 #: model_terms:ir.ui.view,arch_db:dms.view_dms_directory_form
 msgid "Email Alias"
-msgstr "E-Mail-Alias"
+msgstr "E-Mail Alias"
 
 #. module: dms
 #: model:ir.model,name:dms.model_mail_thread
 msgid "Email Thread"
-msgstr "E-Mail-Thread"
+msgstr "E-Mail Thread"
 
 #. module: dms
 #: code:addons/dms/tests/common.py:0
 #, python-format
 msgid "Error has not been raised"
-msgstr "Es ist ein Fehler aufgetreten."
+msgstr "Es ist ein Error aufgetreten"
 
 #. module: dms
 #: code:addons/dms/models/category.py:0
 #, python-format
 msgid "Error! You cannot create recursive categories."
-msgstr "Fehler! Kategorien können nicht rekursiv angelegt werden."
+msgstr "Error! Kategorien können nicht rekursiv angelegt werden."
 
 #. module: dms
 #: code:addons/dms/models/directory.py:0
 #, python-format
 msgid "Error! You cannot create recursive directories."
-msgstr "Fehler! Verzeichnisse können nicht rekursiv angelegt werden."
+msgstr "Error! Verzeichnisse können nicht rekursiv angelegt werden."
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_access_group__explicit_user_ids
 #: model_terms:ir.ui.view,arch_db:dms.view_dms_access_groups_form
 msgid "Explicit Users"
-msgstr "Explizite Benutzer"
+msgstr "Benutzer"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_file__extension
@@ -1002,7 +1002,7 @@ msgstr "Datei"
 #. module: dms
 #: model_terms:ir.ui.view,arch_db:dms.res_config_settings_view_form
 msgid "File Upload"
-msgstr "Datei-Upload"
+msgstr "Dateiupload"
 
 #. module: dms
 #: model:ir.actions.act_window,name:dms.action_dms_file
@@ -1089,7 +1089,7 @@ msgstr "Gruppenname"
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_access_group__users
 msgid "Group Users"
-msgstr "Gruppen-Benutzer"
+msgstr "Benutzer"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_access_group__group_ids
@@ -1103,7 +1103,7 @@ msgstr "Gruppen"
 #: model:ir.model.fields,field_description:dms.field_dms_directory__has_message
 #: model:ir.model.fields,field_description:dms.field_dms_file__has_message
 msgid "Has Message"
-msgstr "Hat Nachricht"
+msgstr ""
 
 #. module: dms
 #: model:dms.category,name:dms.category_02_demo
@@ -1142,7 +1142,7 @@ msgstr "Icon"
 #: model:ir.model.fields,field_description:dms.field_dms_file__icon_url
 #: model:ir.model.fields,field_description:dms.field_dms_mixins_thumbnail__icon_url
 msgid "Icon URL"
-msgstr "Icon-URL"
+msgstr "Icon URL"
 
 #. module: dms
 #: model:ir.model.fields,help:dms.field_dms_directory__activity_exception_icon
@@ -1163,7 +1163,7 @@ msgstr ""
 #: model:ir.model.fields,help:dms.field_dms_file__message_needaction
 #: model:ir.model.fields,help:dms.field_dms_file__message_unread
 msgid "If checked, new messages require your attention."
-msgstr "Falls markiert, benötigen neue Nachrichten Ihre Aufmerksamkeit."
+msgstr "Falls markiert, benötigen neue Nachrichten Ihre Reaktion."
 
 #. module: dms
 #: model:ir.model.fields,help:dms.field_dms_directory__message_has_error
@@ -1283,22 +1283,22 @@ msgstr "Erbe Gruppen"
 #: model:ir.model.fields,field_description:dms.field_dms_directory__storage_id_inherit_access_from_parent_record
 #: model:ir.model.fields,field_description:dms.field_dms_storage__inherit_access_from_parent_record
 msgid "Inherit permissions from related record"
-msgstr "Erbe Berechtigungen vom verlinkten Objekt"
+msgstr "Erbe Berechtigungen vom Eltern-Objekt"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_access_group__perm_inclusive_create
 msgid "Inherited Create Access"
-msgstr "Erbe Anlageberechtigung"
+msgstr "Erbe Anlagerechte"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_access_group__perm_inclusive_unlink
 msgid "Inherited Unlink Access"
-msgstr "Erbe Löschberechtigung"
+msgstr "Erbe Löschrechte"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_access_group__perm_inclusive_write
 msgid "Inherited Write Access"
-msgstr "Erbe Schreibberechtigung"
+msgstr "Erbe Schreibrechte"
 
 #. module: dms
 #: model:dms.category,name:dms.category_01_demo
@@ -1310,7 +1310,7 @@ msgstr "Intern"
 #: model_terms:ir.ui.view,arch_db:dms.view_dms_directory_new_form
 #: model_terms:ir.ui.view,arch_db:dms.view_dms_file_form
 msgid "Internal / Human Resource"
-msgstr "Interne / Personal-Ressource"
+msgstr "Interne Ressource"
 
 #. module: dms
 #: model_terms:ir.ui.view,arch_db:dms.view_dms_category_form
@@ -1389,7 +1389,7 @@ msgstr "Letzte Aktualisierung"
 #: model:ir.model.fields,field_description:dms.field_dms_directory__allowed_model_ids
 #: model:ir.model.fields,field_description:dms.field_dms_storage__model_ids
 msgid "Linked Models"
-msgstr "Verlinkte Datenmodelle"
+msgstr "Verlinkte Modelle"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_directory__res_model
@@ -1425,7 +1425,7 @@ msgstr "Gesperrt"
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_file__locked_by
 msgid "Locked By"
-msgstr "Gesperrt von"
+msgstr ""
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_directory__message_main_attachment_id
@@ -1441,13 +1441,13 @@ msgstr "Manager"
 #. module: dms
 #: model_terms:ir.ui.view,arch_db:dms.view_dms_storage_form
 msgid "Manual File Migration"
-msgstr "Manuelle Datei-Migration"
+msgstr "Manuelle Dateimigration"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_directory__message_has_error
 #: model:ir.model.fields,field_description:dms.field_dms_file__message_has_error
 msgid "Message Delivery error"
-msgstr "Nachrichtenübertragungsfehler"
+msgstr "Zustellungsfehler"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_directory__message_ids
@@ -1583,13 +1583,13 @@ msgstr "Keine Ergebnisse"
 #: model:ir.model.fields,field_description:dms.field_dms_directory__message_needaction_counter
 #: model:ir.model.fields,field_description:dms.field_dms_file__message_needaction_counter
 msgid "Number of Actions"
-msgstr "Anzahl der Aktionen"
+msgstr "Anzahl Aktionen"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_directory__message_has_error_counter
 #: model:ir.model.fields,field_description:dms.field_dms_file__message_has_error_counter
 msgid "Number of errors"
-msgstr "Anzahl der Fehler"
+msgstr "Anzahl Errors"
 
 #. module: dms
 #: model:ir.model.fields,help:dms.field_dms_directory__message_needaction_counter
@@ -1601,13 +1601,13 @@ msgstr "Anzahl der Nachrichten, die eine Aktion erfordern"
 #: model:ir.model.fields,help:dms.field_dms_directory__message_has_error_counter
 #: model:ir.model.fields,help:dms.field_dms_file__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Anzahl der Nachrichten mit Übertragungsfehler"
+msgstr "Anzahl Nachrichten mit Error"
 
 #. module: dms
 #: model:ir.model.fields,help:dms.field_dms_directory__message_unread_counter
 #: model:ir.model.fields,help:dms.field_dms_file__message_unread_counter
 msgid "Number of unread messages"
-msgstr "Anzahl der ungelesenen Nachrichten"
+msgstr "Anzahl ungelesene Nachrichten"
 
 #. module: dms
 #: model:dms.access.group,name:dms.access_group_03_demo
@@ -1677,7 +1677,7 @@ msgstr "Elternpfad"
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_directory__alias_parent_thread_id
 msgid "Parent Record Thread ID"
-msgstr "Thread-ID des übergeordneten Datensatzes"
+msgstr "Übergeordneter Datensatz Thread-ID"
 
 #. module: dms
 #: code:addons/dms/models/access_groups.py:0
@@ -1702,9 +1702,14 @@ msgid "Partner"
 msgstr "Partner"
 
 #. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_file_tree
+msgid "Path"
+msgstr "Pfad"
+
+#. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_file__path_json
 msgid "Path Json"
-msgstr "Json-Pfad"
+msgstr "Pfad Json"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_file__path_names
@@ -1724,8 +1729,8 @@ msgstr ""
 "Mailgateway.\n"
 "- Jeder: jeder kann posten\n"
 "- Partner: nur authentifizierte Partner\n"
-"- Abonnenten: nur Abonnenten des entsprechenden Dokuments oder Mitglieder "
-"der folgenden Kanäle\n"
+"- Follower: nur Follower des entsprechenden Dokuments oder Mitglieder der "
+"folgenden Kanäle\n"
 
 #. module: dms
 #: model:dms.access.group,name:dms.access_group_02_demo
@@ -1737,7 +1742,7 @@ msgstr "Portal"
 #: model:ir.model.fields,field_description:dms.field_dms_directory__access_url
 #: model:ir.model.fields,field_description:dms.field_dms_file__access_url
 msgid "Portal Access URL"
-msgstr "URL für Portalzugriff"
+msgstr "URL Portalzugriff"
 
 #. module: dms
 #: model:dms.tag,name:dms.tag_10_demo
@@ -1754,7 +1759,7 @@ msgstr "Projekt"
 #: model:ir.model.fields,field_description:dms.field_dms_file__permission_read
 #: model:ir.model.fields,field_description:dms.field_dms_security_mixin__permission_read
 msgid "Read Access"
-msgstr "Leseberechtigung"
+msgstr "Leserechte"
 
 #. module: dms
 #: model:ir.model,name:dms.model_dms_access_group
@@ -1785,13 +1790,6 @@ msgid "Responsible User"
 msgstr "Verantwortlicher Benutzer"
 
 #. module: dms
-#. openerp-web
-#: code:addons/dms/static/src/js/views/search_panel.esm.js:0
-#, python-format
-msgid "Root"
-msgstr ""
-
-#. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_storage__root_directory_ids
 #: model_terms:ir.ui.view,arch_db:dms.search_dms_directory
 #: model_terms:ir.ui.view,arch_db:dms.view_dms_storage_form
@@ -1802,7 +1800,7 @@ msgstr "Stammverzeichnisse"
 #: model:ir.model.fields,field_description:dms.field_dms_directory__message_has_sms_error
 #: model:ir.model.fields,field_description:dms.field_dms_file__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr "SMS-Zustellfehler"
+msgstr "SMS Zustellfehler"
 
 #. module: dms
 #: model:dms.tag,name:dms.tag_04_demo
@@ -1817,6 +1815,11 @@ msgstr "Verkäufe"
 #: model_terms:ir.ui.view,arch_db:dms.view_dms_storage_search
 msgid "Save Type"
 msgstr "Speichertyp"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_file_kanban
+msgid "Search"
+msgstr "Suche"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_directory__access_token
@@ -2017,7 +2020,7 @@ msgstr "Der Name der Datei ist ungültig."
 #: code:addons/dms/models/dms_file.py:0
 #, python-format
 msgid "The maximum upload size is %s MB)."
-msgstr "Die maximale Upload-Größe beträgt %s MB."
+msgstr "Die maximale Upload-Größe beträgt %s MB)."
 
 #. module: dms
 #: model:ir.model.fields,help:dms.field_dms_directory__alias_model_id
@@ -2038,7 +2041,7 @@ msgid ""
 "<jobs@example.odoo.com>"
 msgstr ""
 "Der Name des E-Mail-Alias, z. B. \"jobs\", wenn Sie E-Mails für "
-"<jobs@example.odoo.com> abfangen möchten."
+"<jobs@example.odoo.com> abfangen möchten"
 
 #. module: dms
 #: model:ir.model.constraint,message:dms.constraint_dms_access_group_name_uniq
@@ -2083,17 +2086,17 @@ msgstr "Dieses Verzeichnis muss einem Datensatz zugeordnet werden."
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_directory__count_total_elements
 msgid "Total Elements"
-msgstr "Gesamtanzahl der Elemente"
+msgstr "Gesamte Anzahl Elemente"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_directory__count_total_files
 msgid "Total Files"
-msgstr "Gesamtanzahl der Dateien"
+msgstr "Gesamte Anzahl Dateien"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_directory__count_total_directories
 msgid "Total Subdirectories"
-msgstr "Gesamtanzahl der Unterverzeichnisse"
+msgstr "Gesamte Anzahl Unterverzeichnisse"
 
 #. module: dms
 #: model:dms.category,name:dms.category_04_demo
@@ -2114,7 +2117,7 @@ msgstr "Art der Ausnahmeaktivität des Datensatzes."
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_access_group__perm_unlink
 msgid "Unlink Access"
-msgstr "Löschberechtigung"
+msgstr "Löschrechte"
 
 #. module: dms
 #: model_terms:ir.ui.view,arch_db:dms.view_dms_file_form
@@ -2136,7 +2139,7 @@ msgstr "Ungelesene Nachrichten"
 #: model:ir.model.fields,field_description:dms.field_dms_directory__message_unread_counter
 #: model:ir.model.fields,field_description:dms.field_dms_file__message_unread_counter
 msgid "Unread Messages Counter"
-msgstr "Anzahl der ungelesenen Nachrichten"
+msgstr "Anzahl ungelesene Nachrichten"
 
 #. module: dms
 #: model_terms:ir.ui.view,arch_db:dms.onboarding_file_step
@@ -2146,7 +2149,7 @@ msgstr "Datei hochladen"
 #. module: dms
 #: model_terms:ir.ui.view,arch_db:dms.onboarding_file_step
 msgid "Upload your first File."
-msgstr "Erste Datei hochladen."
+msgstr "Laden Sie Ihre erste Datei hoch."
 
 #. module: dms
 #: model:res.groups,name:dms.group_dms_user
@@ -2161,7 +2164,7 @@ msgstr "Benutzer"
 #. module: dms
 #: model:dms.tag,name:dms.tag_09_demo
 msgid "Vendor Bill"
-msgstr "Lieferantenrechnung"
+msgstr "Einakufsrechnungen"
 
 #. module: dms
 #. openerp-web
@@ -2179,13 +2182,13 @@ msgstr "Ansichten"
 #: model:ir.model.fields,field_description:dms.field_dms_directory__website_message_ids
 #: model:ir.model.fields,field_description:dms.field_dms_file__website_message_ids
 msgid "Website Messages"
-msgstr "Website-Nachrichten"
+msgstr "Webseiten-Nachrichten"
 
 #. module: dms
 #: model:ir.model.fields,help:dms.field_dms_directory__website_message_ids
 #: model:ir.model.fields,help:dms.field_dms_file__website_message_ids
 msgid "Website communication history"
-msgstr "Historie der Website-Kommunikation"
+msgstr "Verlauf der Website-Kommunikation"
 
 #. module: dms
 #: model:ir.model.fields,field_description:dms.field_dms_access_group__perm_write
@@ -2193,7 +2196,7 @@ msgstr "Historie der Website-Kommunikation"
 #: model:ir.model.fields,field_description:dms.field_dms_file__permission_write
 #: model:ir.model.fields,field_description:dms.field_dms_security_mixin__permission_write
 msgid "Write Access"
-msgstr "Schreibberechtigung"
+msgstr "Schreibrechte"
 
 #. module: dms
 #. openerp-web
@@ -2206,7 +2209,7 @@ msgstr "Sie müssen zuerst ein Verzeichnis auswählen"
 #: model_terms:ir.ui.view,arch_db:dms.document_onboarding_directory_panel
 #: model_terms:ir.ui.view,arch_db:dms.document_onboarding_file_panel
 msgid "action_close_documents_onboarding"
-msgstr "action_close_documents_onboarding"
+msgstr ""
 
 #. module: dms
 #: model_terms:ir.ui.view,arch_db:dms.portal_my_dms
@@ -2221,29 +2224,23 @@ msgstr "exe, msi"
 #. module: dms
 #: model_terms:ir.ui.view,arch_db:dms.view_dms_directory_form
 msgid "mail.catchall.domain"
-msgstr "mail.catchall.domain"
+msgstr ""
 
 #. module: dms
 #: model_terms:ir.ui.view,arch_db:dms.document_onboarding_file_panel
 msgid "o_onboarding_blue"
-msgstr "o_onboarding_blue"
+msgstr ""
 
 #. module: dms
 #: model_terms:ir.ui.view,arch_db:dms.document_onboarding_directory_panel
 msgid "o_onboarding_orange"
-msgstr "o_onboarding_orange"
+msgstr ""
 
 #. module: dms
 #: model_terms:ir.ui.view,arch_db:dms.document_onboarding_directory_panel
 #: model_terms:ir.ui.view,arch_db:dms.document_onboarding_file_panel
 msgid "res.company"
-msgstr "res.company"
-
-#~ msgid "Path"
-#~ msgstr "Pfad"
-
-#~ msgid "Search"
-#~ msgstr "Suche"
+msgstr ""
 
 #~ msgid "Followers (Channels)"
 #~ msgstr "Abonnenten (Kanäle)"
